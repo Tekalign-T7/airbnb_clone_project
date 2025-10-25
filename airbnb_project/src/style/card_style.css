@@ -1,0 +1,32 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  font-family:"Poppins",sans-serif;
+}
+.grey{
+    color:#918E9B
+}
+.bold{
+    font-weight:700;
+}
+.card{
+    margin-left:20px;
+    /* border:1px solid rgb(194, 190, 190); */
+    width:175px;
+    font-size:12px;
+}
+.card--image{
+    width:100%;
+}
+
+.card--stats{
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.card--star{
+    height:14px;
+}

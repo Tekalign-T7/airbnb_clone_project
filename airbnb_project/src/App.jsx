@@ -1,12 +1,27 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import './App.css' 
+import {Navbar} from "./components/Navbar"
+import {Hero} from "./components/Hero"
+import {Card} from "./components/Card"
 export function App() {
   return (
     <div className="container">
       <Navbar/>
+      <Hero/>
+      <div className="card_container">
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+      </div>
     </div>
   )
 }

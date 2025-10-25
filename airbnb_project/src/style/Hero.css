@@ -1,0 +1,33 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  font-family:"Poppins",sans-serif;
+}
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.Hero_image{
+    width: 395px;
+    height: 232px;
+    margin-top: 96px;
+    margin-left: 77px;
+    border-radius: 8.95px;
+    opacity: 1;
+
+}
+.hero--image{
+    max-width:400px;
+    align-self:center;
+}
+.hero--header{
+    margin-top:16px;
+}
+.hero--text{
+    margin-top:0;
+}

@@ -1,25 +1,5 @@
-*{
-    box-sizing:border-box;
-}
-body{
-    margin:0;
-    /* font-family:"Poppins",sans-serif; */
-}
-nav{
-    height: 70px;
-    opacity: 1;
-    /* border:1px solid black; */
-    display:flex;
-    align-items: center;
-    justify-content: left;
-    box-shadow: 0px 2.98px 7.46px 0px #0000001A;
-
-
-}
-.logo{
-    /* background-color:blue; */
-    width: 82px;
-    height: 25px;
-    margin-left: 30px;
-    opacity: 1;
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
 }

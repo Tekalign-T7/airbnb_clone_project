@@ -12,6 +12,9 @@ body{
     font-weight:700;
 }
 .card{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
     margin-left:20px;
     /* border:1px solid rgb(194, 190, 190); */
     width:175px;

@@ -1,4 +1,4 @@
-import grid_image from "../images/Group_image.png"
+import grid_image from "../assets/Group_image.png"
 import "../style/Hero.css"
 export function Hero(){
     return(

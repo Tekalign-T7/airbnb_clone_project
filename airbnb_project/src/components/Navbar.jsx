@@ -1,5 +1,5 @@
 import "../style/Navbar_style.css"
-import logo from "../images/airbnb.png"
+import logo from "../assets/airbnb.png"
 export function Navbar(){
   return(
     <nav>
